@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GitHub & Git Stats</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+      color: #00c6ff;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .card {
+      background: #1c1c1c;
+      padding: 30px;
+      border-radius: 16px;
+      width: 300px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #00ffb3;
+    }
+
+    .card p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    @media (max-width: 700px) {
+      .card {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>GitHub & Git Knowledge Survey</h1>
+    <div class="cards">
+      <div class="card">
+        <h2>72%</h2>
+        <p>People with a GitHub Account</p>
+      </div>
+      <div class="card">
+        <h2>85%</h2>
+        <p>People with Knowledge of Git</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
